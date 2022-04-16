@@ -1,3 +1,3 @@
-import Career from './Career';
+import Career from './career';
 
 export default Career;

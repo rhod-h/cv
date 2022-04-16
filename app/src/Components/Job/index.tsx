@@ -1,3 +1,3 @@
-import Job from './Job';
+import Job from './job';
 
 export default Job;

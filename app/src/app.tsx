@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import Styles from './App.module.css';
+import Styles from './app.module.css';
 import Header from './Components/Header';
 import Intro from './Components/Intro';
 
@@ -26,7 +26,7 @@ const theme = createTheme({
   },
 });
 
-export default function App() {
+function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
@@ -39,3 +39,5 @@ export default function App() {
     </ThemeProvider>
   );
 }
+
+export default App;
