@@ -1,0 +1,12 @@
+.intro {
+     margin: 12px;
+}
+
+.title {
+     border-bottom: 1px solid black;
+     padding-bottom: 6px;
+}
+
+.block {
+     margin-top: 12px; 
+}
